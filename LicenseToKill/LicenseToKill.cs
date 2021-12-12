@@ -79,6 +79,7 @@ namespace LicenseToKill
                     // Warning: LicenseToSkill extends `m_hardDeathCooldown` inside the `HardDeath` evaluation.
                     // Cannot invoke `ClearHardDeath`, as that resets `m_timeSinceDeath` to a value less than LTS's cooldown override.
                     __instance.m_timeSinceDeath = 999999f;
+                    recentHitQueue.Clear();
                 }
             }
         }
