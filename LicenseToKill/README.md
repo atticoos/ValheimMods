@@ -11,4 +11,4 @@ Note: If a player already has a No Skill Drain buff, it will be removed upon a P
 
 ## Configuration
 - `isModEnabled`
- - Globally enable or disable this mod (restart required)
+  - Globally enable or disable this mod (restart required)
